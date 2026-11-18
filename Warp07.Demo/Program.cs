@@ -1,2 +1,2 @@
-﻿Console.WriteLine("podaj imię:");
+﻿Console.WriteLine("podaj imię:")
 Console.ReadLine();
