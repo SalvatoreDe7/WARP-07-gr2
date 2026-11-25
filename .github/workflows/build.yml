@@ -27,6 +27,9 @@ jobs:
       - name: Show directory
         run: pwd      
       
+      - name: Check repository structure
+        shell: bash
+        run: bash scripts/check-repository.sh "$PROJECT_PATH"
       
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
